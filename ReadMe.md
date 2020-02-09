@@ -1,5 +1,5 @@
 ---
-typora-root-url: Img
+
 ---
 
 # Snow coverage shader for Unity
@@ -20,13 +20,13 @@ This shader is supposed to simulate the effect of objects being covered by snow.
 
 ### Samples
 
-![The effect applied to a free rock asset](/RockWithSnow.gif)
+![The effect applied to a free rock asset](Img/RockWithSnow.gif)
 
 Fig 1. Here the shader has been applied to a rock asset (from a free asset package **Rock package** by [shui861wy](https://assetstore.unity.com/publishers/33764) available at https://assetstore.unity.com/packages/3d/props/exterior/rock-package-118182). You can see the snow positioning itself to fit the desired direction.
 
 
 
-![The effect applied to a low poly building](/BuildingWithSnow.gif)
+![The effect applied to a low poly building](Img/BuildingWithSnow.gif)
 
 Fig 2. Using the shader with a (relatively) low poly building mesh (from a free asset RPG Poly Pack Lite by [GGigel](https://assetstore.unity.com/publishers/42095) available at https://assetstore.unity.com/packages/3d/environments/landscapes/rpg-poly-pack-lite-148410).  
 

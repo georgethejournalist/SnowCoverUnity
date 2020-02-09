@@ -13,14 +13,14 @@
         _SnowOn("Use snow?", Int) = 0
         _SnowColor("Snow Color", Color) = (1,1,1,1)
         _SnowTex("Snow", 2D) = "white" {}
-        _SnowAmount ("Snow Amount", Range(0,1)) = 0.1
+        _SnowAmount ("Snow Amount", Range(0,0.3)) = 0.1
         _SnowDirection ("Snow Direction", Vector) = (0,1,0,0)
-        _SnowHeightTex("Snow Height", 2D) = "white" {}
-        _SnowRoughnessTex("Snow Roughness", 2D) = "white" {}
+        /*_SnowHeightTex("Snow Height", 2D) = "white" {}
+        _SnowRoughnessTex("Snow Roughness", 2D) = "white" {}*/
         _SnowGlossiness("Snow Glossiness", Range(0,1)) = 0.5
         _SnowEmissionColor("Snow Emission Color", Color) = (1,1,1,1)
         _SnowEmissionAmount("Snow Emission Value", Range(0,1)) = 0.1
-        _Blend("Texture Blend", Range(0,1)) = 0.0
+        /*_Blend("Texture Blend", Range(0,1)) = 0.0*/
         
         
         [Toggle(DISPLACE_ON)]
@@ -47,8 +47,8 @@
         sampler2D _MetallicTex;
         sampler2D _OcclusionTex;
         sampler2D _SnowTex;
-        sampler2D _SnowHeightTex;
-        sampler2D _SnowRoughnessTex;
+        /*sampler2D _SnowHeightTex;
+        sampler2D _SnowRoughnessTex;*/
 
         struct Input
         {
@@ -67,7 +67,7 @@
         float _SnowExpansion;
         float _SnowDepth;
         float _DisplaceAmount;
-        half _Blend;
+        /*half _Blend;*/
 
         fixed4 _SnowEmissionColor;
         float _SnowEmissionAmount;
